@@ -59,6 +59,7 @@ namespace CommandAPI.Controllers
 
             return NoContent();
         }
+        // Test Azure DevOps auto build comment
         // DELETE api/commands/{Id}
         [HttpDelete("{id}")]
         public ActionResult<Command> DeleteCommandItem(int id)
